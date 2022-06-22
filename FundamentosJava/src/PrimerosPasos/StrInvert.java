@@ -39,11 +39,11 @@ public class StrInvert {
         System.out.println("3ra Forma");
         String cadena2 = cadena;
         System.out.println(cadena2);
-        StringBuilder inverted = new StringBuilder();
+        StringBuilder cadena2Invertida = new StringBuilder();
         for (int i = (cadena2.length() - 1); i >= 0; i--) {
-            inverted.append(cadena2.charAt(i));
+            cadena2Invertida.append(cadena2.charAt(i));
         }
-        System.out.println(inverted);
+        System.out.println(cadena2Invertida);
         
         //Usando Recursividad
         System.out.println("4ra Forma");
