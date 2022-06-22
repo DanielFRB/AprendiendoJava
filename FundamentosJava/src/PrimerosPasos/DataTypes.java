@@ -7,6 +7,7 @@ package PrimerosPasos;
 public class DataTypes {
     public static void main(String[] args) {
         //Datos Primitivos
+        System.out.println("Datos Primitivos");
         byte a = 126;
         System.out.println("byte: " + a);
         short b = 10000;
