@@ -1,3 +1,3 @@
 # Learning Java
 
-This is a serie where you can learn Java through practical examples.
+This is a place where you can learn Java through practical examples.
