@@ -1,3 +1,3 @@
 # Learning Java
 
-This is a series of courses to learn Javas through practical examples.
+This is a serie where you can learn Java through practical examples.
