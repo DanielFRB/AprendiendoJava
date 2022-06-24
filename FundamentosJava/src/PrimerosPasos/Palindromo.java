@@ -85,7 +85,7 @@ public class Palindromo {
         if(f.length() == 0 || f.length() == 1) {
             return true; 
         }
-        if(f.charAt(0) == f.charAt(f.length() - 1)) {
+        if(f.charAt(0) == f.charAt(f.length()-1)) {
             return checkPalindromo(f.substring(1, f.length()-1));
         }
         return false;
