@@ -39,5 +39,5 @@ public class ProductoElemArreglo {
         return pd;
     }
     
-    static BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
+    private static BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
 }
