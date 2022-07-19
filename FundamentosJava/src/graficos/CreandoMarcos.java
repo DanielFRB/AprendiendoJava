@@ -16,6 +16,9 @@ public class CreandoMarcos {
 
 class Marco extends JFrame {
     public Marco() {
-        setSize(500, 300);
+        //setSize(500, 300);
+        //setLocation(500, 300);
+        setBounds(500, 300, 500, 300);
+        setTitle("Bienvenidos");
     }
 }
