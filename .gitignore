@@ -8,3 +8,11 @@
 /PildorasInformaticas/EstructurasPrincipales/*.xml
 /PildorasInformaticas/EstructurasPrincipales/*.mf
 
+/PildorasInformaticas/ManipulacionCadenas/nbproject/
+/PildorasInformaticas/ManipulacionCadenas/build/
+/PildorasInformaticas/ManipulacionCadenas/dist/
+/PildorasInformaticas/ManipulacionCadenas/test/
+/PildorasInformaticas/ManipulacionCadenas/out/
+/PildorasInformaticas/ManipulacionCadenas/*.xml
+/PildorasInformaticas/ManipulacionCadenas/*.mf
+
