@@ -16,3 +16,11 @@
 /PildorasInformaticas/ManipulacionCadenas/*.xml
 /PildorasInformaticas/ManipulacionCadenas/*.mf
 
+/PildorasInformaticas/EntradaSalidaDeDatos/nbproject/
+/PildorasInformaticas/EntradaSalidaDeDatos/build/
+/PildorasInformaticas/EntradaSalidaDeDatos/dist/
+/PildorasInformaticas/EntradaSalidaDeDatos/test/
+/PildorasInformaticas/EntradaSalidaDeDatos/out/
+/PildorasInformaticas/EntradaSalidaDeDatos/*.xml
+/PildorasInformaticas/EntradaSalidaDeDatos/*.mf
+
