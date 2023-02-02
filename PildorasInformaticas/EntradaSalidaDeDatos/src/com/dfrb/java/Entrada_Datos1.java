@@ -9,12 +9,12 @@ import java.util.Scanner;
 public class Entrada_Datos1 {
     public static void main(String[] args) {
         String linea;
-        Scanner entrada = new Scanner(System.in);
+        Scanner entradaDatos = new Scanner(System.in);
         System.out.print("Escribe algo: ");
-        linea = entrada.nextLine();
+        linea = entradaDatos.nextLine();
         System.out.println("Tu escribiste: " + linea);
         System.out.print("Escribe algo adicional: ");
-        linea = entrada.nextLine();
+        linea = entradaDatos.nextLine();
         System.out.println("Tu tambien dijiste esto: " + linea);
     }
 }
