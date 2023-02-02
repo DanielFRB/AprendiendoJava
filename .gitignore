@@ -24,3 +24,11 @@
 /PildorasInformaticas/EntradaSalidaDeDatos/*.xml
 /PildorasInformaticas/EntradaSalidaDeDatos/*.mf
 
+/PildorasInformaticas/CondicionalesYBucles/nbproject/
+/PildorasInformaticas/CondicionalesYBucles/build/
+/PildorasInformaticas/CondicionalesYBucles/dist/
+/PildorasInformaticas/CondicionalesYBucles/test/
+/PildorasInformaticas/CondicionalesYBucles/out/
+/PildorasInformaticas/CondicionalesYBucles/*.xml
+/PildorasInformaticas/CondicionalesYBucles/*.mf
+
