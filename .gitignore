@@ -32,3 +32,10 @@
 /PildorasInformaticas/CondicionalesYBucles/*.xml
 /PildorasInformaticas/CondicionalesYBucles/*.mf
 
+/PildorasInformaticas/JavaArrays/nbproject/
+/PildorasInformaticas/JavaArrays/build/
+/PildorasInformaticas/JavaArrays/dist/
+/PildorasInformaticas/JavaArrays/test/
+/PildorasInformaticas/JavaArrays/out/
+/PildorasInformaticas/JavaArrays/*.xml
+/PildorasInformaticas/JavaArrays/*.mf
