@@ -39,3 +39,11 @@
 /PildorasInformaticas/JavaArrays/out/
 /PildorasInformaticas/JavaArrays/*.xml
 /PildorasInformaticas/JavaArrays/*.mf
+
+/PildorasInformaticas/POO/nbproject/private/
+/PildorasInformaticas/POO/build/
+/PildorasInformaticas/POO/dist/
+/PildorasInformaticas/POO/test/
+/PildorasInformaticas/POO/out/
+/PildorasInformaticas/POO/*.xml
+/PildorasInformaticas/POO/*.mf
