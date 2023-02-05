@@ -15,6 +15,11 @@ public class Pruebas {
         System.out.println(trabajador2.devuelveDatos());
         System.out.println(trabajador3.devuelveDatos());
         System.out.println(trabajador4.devuelveDatos());
+        System.out.println("------------"); 
+        // Codigo impresion alternativo
+        System.out.println(trabajador1.devuelveDatos() +"\n"+ trabajador2.devuelveDatos() +"\n"+ trabajador3.devuelveDatos()
+            +"\n"+ trabajador4.devuelveDatos());
+        System.out.println(EmpleadoPruebas.dameIdSiguiente());
     }
 }
 
@@ -32,6 +37,10 @@ class EmpleadoPruebas {
     
     public String devuelveDatos() {
         return "El nombre es: "+ nombre +" la seccion es: "+ seccion +" y el Id es: "+ id;
+    }
+    
+    public static String dameIdSiguiente() {
+        return "El Id siguiente es: "+ idSiguiente;
     }
     
     private final String nombre;
