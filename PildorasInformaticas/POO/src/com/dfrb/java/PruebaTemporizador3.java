@@ -13,8 +13,8 @@ import javax.swing.Timer;
 
 public class PruebaTemporizador3 {
     public static void main(String[] args) {
-        Reloj2 reloj = new Reloj2();
-        reloj.enMarcha(3000, true);
+        Reloj2 miReloj = new Reloj2();
+        miReloj.enMarcha(3000, true);
         JOptionPane.showMessageDialog(null, "Pulce Aceptar para detener");
         System.exit(0);
     }
@@ -26,7 +26,7 @@ class Reloj2 {
             @Override
             public void actionPerformed(ActionEvent e) {
                 Date ahora = new Date();
-                System.out.println("La hora cada 3 segundos: "+ ahora);
+                System.out.println("Te pongo la hora cada 3 segundos: "+ ahora);
                 if (sonido) {
                     Toolkit.getDefaultToolkit().beep();
                 }
