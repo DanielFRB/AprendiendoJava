@@ -44,7 +44,8 @@ class EventoDeTeclado implements KeyListener {
 
     @Override
     public void keyReleased(KeyEvent e) {
-        System.out.println("Tecla presionada: "+ e.getKeyChar());
+        char tecla = e.getKeyChar();
+        System.out.println("Tecla presionada: "+ tecla);
     }
     
 }
