@@ -17,6 +17,7 @@ public class DemoTextArea {
 
 class MarcoArea extends JFrame {
     public MarcoArea() {
+        setTitle("Prueba con Areas de Texto: 1er Ejemplo");
         setBounds(500, 300, 500, 350);
         LaminaArea miLamina = new LaminaArea();
         add(miLamina);
