@@ -19,7 +19,7 @@ public class PruebaTextAreaConLambdas {
 class MarcoPruebaTextAreaConLambdas extends JFrame {
     public MarcoPruebaTextAreaConLambdas() {
         setTitle("Prueba con Areas de Texto: 3er Ejemplo - con Lambdas");
-        setBounds(500, 300, 500, 350);
+        setBounds(500, 280, 500, 350);
         setLayout(new BorderLayout());
         laminaBtns = new JPanel();
         btnInsertar = new JButton("Insertar");
