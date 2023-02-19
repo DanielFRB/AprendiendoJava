@@ -21,7 +21,7 @@ class MarcoDisposicionAvanzadas3 extends JFrame {
         setBounds(200, 250, 700, 350);
         Image icono = pantalla.getImage("src/images/favicon.png");
         setIconImage(icono);
-        setTitle("Disposiciones Avanzadas II: Spring");
+        setTitle("Disposiciones Avanzadas III: Spring - Continuacion");
         LaminaDisposicionAvanzadas3 miLamina = new LaminaDisposicionAvanzadas3();
         add(miLamina);
     }
