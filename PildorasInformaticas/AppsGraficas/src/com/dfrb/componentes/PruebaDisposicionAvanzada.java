@@ -9,14 +9,14 @@ import javax.swing.*;
 
 public class PruebaDisposicionAvanzada {
     public static void main(String[] args) {
-        MarcoDisposicionAvanzada miMarco = new MarcoDisposicionAvanzada();
+        MarcoCaja miMarco = new MarcoCaja();
         miMarco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         miMarco.setVisible(true);
     }
 }
 
-class MarcoDisposicionAvanzada extends JFrame {
-    public MarcoDisposicionAvanzada() throws HeadlessException {
+class MarcoCaja extends JFrame {
+    public MarcoCaja() throws HeadlessException {
         Toolkit pantalla = Toolkit.getDefaultToolkit();
         Dimension tamanoPantalla = pantalla.getScreenSize();
         int alturaPantalla = tamanoPantalla.height;
@@ -25,13 +25,13 @@ class MarcoDisposicionAvanzada extends JFrame {
         Image icono = pantalla.getImage("src/images/favicon.png");
         setIconImage(icono);
         setTitle("Disposiciones Avanzadas I: Box");
-        LaminaDisposicionAvanzada miLamina = new LaminaDisposicionAvanzada();
+        LaminaCaja miLamina = new LaminaCaja();
         add(miLamina);
     }
 }
 
-class LaminaDisposicionAvanzada extends JPanel {
-    public LaminaDisposicionAvanzada() {
+class LaminaCaja extends JPanel {
+    public LaminaCaja() {
         setLayout(new BorderLayout());
         JLabel lblNombre = new JLabel("Nombre");
         JTextField txtNombre = new JTextField(20);
