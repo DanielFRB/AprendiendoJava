@@ -9,26 +9,26 @@ import javax.swing.*;
 
 public class PruebaDisposicionAvanzada3 {
     public static void main(String[] args) {
-        MarcoDisposicionAvanzadas3 miMarco = new MarcoDisposicionAvanzadas3();
+        MarcoMuelle2 miMarco = new MarcoMuelle2();
         miMarco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         miMarco.setVisible(true);
     }
 }
 
-class MarcoDisposicionAvanzadas3 extends JFrame {
-    public MarcoDisposicionAvanzadas3() throws HeadlessException {
+class MarcoMuelle2 extends JFrame {
+    public MarcoMuelle2() throws HeadlessException {
         Toolkit pantalla = Toolkit.getDefaultToolkit();
         setBounds(200, 250, 700, 350);
         Image icono = pantalla.getImage("src/images/favicon.png");
         setIconImage(icono);
-        setTitle("Disposiciones Avanzadas III: Spring - Continuacion");
-        LaminaDisposicionAvanzadas3 miLamina = new LaminaDisposicionAvanzadas3();
+        setTitle("Disposiciones Avanzadas III: Spring (Muelles) - Continuacion");
+        LaminaMuelle2 miLamina = new LaminaMuelle2();
         add(miLamina);
     }
 }
 
-class LaminaDisposicionAvanzadas3 extends JPanel {
-    public LaminaDisposicionAvanzadas3() {
+class LaminaMuelle2 extends JPanel {
+    public LaminaMuelle2() {
         JButton btn01 = new JButton("boton 1");
         JButton btn02 = new JButton("boton 2");
         JButton btn03 = new JButton("boton 3");
