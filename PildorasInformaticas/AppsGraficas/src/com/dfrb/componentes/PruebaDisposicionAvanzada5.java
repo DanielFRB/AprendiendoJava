@@ -7,16 +7,16 @@ import javax.swing.*;
  * @author dfrb@ne
  */
 
-public class PruebaDisposicionAvanzada {
+public class PruebaDisposicionAvanzada5 {
     public static void main(String[] args) {
-        MarcoDisposicionAvanzada miMarco = new MarcoDisposicionAvanzada();
+        MarcoDispoLibre2 miMarco = new MarcoDispoLibre2();
         miMarco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         miMarco.setVisible(true);
     }
 }
 
-class MarcoDisposicionAvanzada extends JFrame {
-    public MarcoDisposicionAvanzada() throws HeadlessException {
+class MarcoDispoLibre2 extends JFrame {
+    public MarcoDispoLibre2() {
         Toolkit pantalla = Toolkit.getDefaultToolkit();
         Dimension tamanoPantalla = pantalla.getScreenSize();
         int alturaPantalla = tamanoPantalla.height;
@@ -24,39 +24,67 @@ class MarcoDisposicionAvanzada extends JFrame {
         setBounds(anchoPantalla/4, alturaPantalla/4, anchoPantalla/2, alturaPantalla/2);
         Image icono = pantalla.getImage("src/images/favicon.png");
         setIconImage(icono);
-        setTitle("Disposiciones Avanzadas I: Box");
-        LaminaDisposicionAvanzada miLamina = new LaminaDisposicionAvanzada();
+        setTitle("Disposiciones Avanzadas V: Disposiciones Libres II - Implementacion Interface LayoutManager");
+        LaminaDispoLibre2 miLamina = new LaminaDispoLibre2();
         add(miLamina);
     }
 }
 
-class LaminaDisposicionAvanzada extends JPanel {
-    public LaminaDisposicionAvanzada() {
-        setLayout(new BorderLayout());
+class LaminaDispoLibre2 extends JPanel {
+    public LaminaDispoLibre2() {
+        setLayout(new EnColumnas());
         JLabel lblNombre = new JLabel("Nombre");
-        JTextField txtNombre = new JTextField(20);
-        txtNombre.setMaximumSize(txtNombre.getPreferredSize());
-        Box cajaH1 = Box.createHorizontalBox();
-        cajaH1.add(lblNombre);
-        cajaH1.add(Box.createHorizontalStrut(10));
-        cajaH1.add(txtNombre);
-        JLabel lblClave = new JLabel("Contraseña");
-        JTextField txtClave = new JTextField(20);
-        txtClave.setMaximumSize(txtClave.getPreferredSize());
-        Box cajaH2 = Box.createHorizontalBox();
-        cajaH2.add(lblClave);
-        cajaH2.add(Box.createHorizontalStrut(10));
-        cajaH2.add(txtClave);
-        JButton btnOk = new JButton("Ok");
-        JButton btnCancel = new JButton("Cancelar");
-        Box cajaH3 = Box.createHorizontalBox();
-        cajaH3.add(btnOk);
-        cajaH3.add(Box.createHorizontalGlue());
-        cajaH3.add(btnCancel);
-        Box cajaVertical = Box.createVerticalBox();
-        cajaVertical.add(cajaH1);
-        cajaVertical.add(cajaH2);
-        cajaVertical.add(cajaH3);
-        add(cajaVertical, BorderLayout.CENTER);
+        JLabel lblApellido = new JLabel("Apellido");
+        JLabel lblEdad = new JLabel("Edad");
+        JTextField txtNombre = new JTextField();
+        JTextField txtApellido = new JTextField();
+        JTextField txtEdad = new JTextField();
+        add(lblNombre);
+        add(txtNombre);
+        add(lblApellido);
+        add(txtApellido);
+         add(lblEdad);
+        add(txtEdad);
     }
+}
+
+class EnColumnas implements LayoutManager {
+    @Override
+    public void addLayoutComponent(String name, Component comp) {
+        
+    }
+
+    @Override
+    public void removeLayoutComponent(Component comp) {
+        
+    }
+
+    @Override
+    public Dimension preferredLayoutSize(Container container) {
+        return null;
+    }
+
+    @Override
+    public Dimension minimumLayoutSize(Container container) {
+        return null;
+    }
+
+    @Override
+    public void layoutContainer(Container container) {
+        int contador = 0;
+        int n = container.getComponentCount();
+        for (int i = 0; i < n; i++) {
+            contador++;
+            Component c = container.getComponent(i);
+            c.setBounds(x, y, 100, 20);
+            x += 100;
+            if (contador % 2 == 0) {
+                x = 20;
+                y += 40;
+            }
+        }
+    }
+    
+    private int x = 20;
+    private int y = 20;
 }
