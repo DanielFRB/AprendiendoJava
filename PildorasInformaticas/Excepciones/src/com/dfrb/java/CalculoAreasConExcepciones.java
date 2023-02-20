@@ -1,19 +1,25 @@
 package com.dfrb.java;
 
-import java.util.Scanner;
-import javax.swing.JOptionPane;
+import java.util.*;
+import javax.swing.*;
 
 /**
  * @author dfrb@ne
  */
 
-public class CalculoAreas {
+public class CalculoAreasConExcepciones {
     public static void main(String[] args) {
         System.out.println("Calculo de areas de figuras geometricas");
         Scanner entrada = new Scanner(System.in);
         System.out.println("Elige una opcion: \n1: Cuadrado \n2: Triangulo \n3: Rectangulo \n4: Circulo ");
-        int opcion = entrada.nextInt();
-        switch (opcion) {
+        try {
+            figura = entrada.nextInt();
+        } catch (Exception e) {
+            System.err.println("Ha ocurrido un error");
+        } finally {
+            entrada.close();
+        }
+        switch (figura) {
             case 1:
                 int lado = Integer.parseInt(JOptionPane.showInputDialog("Introduce el lado del cuadrado"));
                 System.out.println("El area del cuadrado es = "+ Math.pow(lado, 2));
@@ -35,5 +41,10 @@ public class CalculoAreas {
             default:
                 System.out.println("No ha escogido la opcion correcta");
         }
+        int altura = Integer.parseInt(JOptionPane.showInputDialog("Ingrese su altura en centimetros"));
+        System.out.println("Si eres hombre tu peso ideal es: "+ (altura - 110) +" Kg.");
+        System.out.println("Si eres mujer tu peso ideal es: "+ (altura - 120) +" Kg.");
     }
+    
+    static int figura;
 }
