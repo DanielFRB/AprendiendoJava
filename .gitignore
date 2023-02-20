@@ -63,3 +63,11 @@
 /PildorasInformaticas/EjemplosAdicionales/out/
 /PildorasInformaticas/EjemplosAdicionales/*.xml
 /PildorasInformaticas/EjemplosAdicionales/*.mf
+
+/PildorasInformaticas/Excepciones/nbproject/
+/PildorasInformaticas/Excepciones/build/
+/PildorasInformaticas/Excepciones/dist/
+/PildorasInformaticas/Excepciones/test/
+/PildorasInformaticas/Excepciones/out/
+/PildorasInformaticas/Excepciones/*.xml
+/PildorasInformaticas/Excepciones/*.mf
