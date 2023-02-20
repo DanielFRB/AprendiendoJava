@@ -15,6 +15,7 @@ public class CompruebaMailConExcepcion2 {
             examinaEmail(mail);
         } catch (LongitudMailErronea e) {
             System.err.println("El mail es demasiado corto");
+            e.printStackTrace();
         }
     }
     
