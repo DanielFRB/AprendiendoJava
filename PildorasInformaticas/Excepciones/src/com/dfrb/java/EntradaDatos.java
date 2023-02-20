@@ -24,6 +24,8 @@ public class EntradaDatos {
     }
     
     static void pedirDatos() throws InputMismatchException {
+        // Este tipo de captura de la excepcion es considerada una mala practica por lo que el uso del bloque try-catch deberá
+        // trasladarse fuera del metodo.
         try {
             Scanner entrada = new Scanner(System.in);
             System.out.println("Introduce tu nombre, por favor");
