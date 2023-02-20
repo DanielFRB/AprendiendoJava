@@ -71,3 +71,11 @@
 /PildorasInformaticas/Excepciones/out/
 /PildorasInformaticas/Excepciones/*.xml
 /PildorasInformaticas/Excepciones/*.mf
+
+/PildorasInformaticas/JavaStreams/nbproject/
+/PildorasInformaticas/JavaStreams/build/
+/PildorasInformaticas/JavaStreams/dist/
+/PildorasInformaticas/JavaStreams/test/
+/PildorasInformaticas/JavaStreams/out/
+/PildorasInformaticas/JavaStreams/*.xml
+/PildorasInformaticas/JavaStreams/*.mf
