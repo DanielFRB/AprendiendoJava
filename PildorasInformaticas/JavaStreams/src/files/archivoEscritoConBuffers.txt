@@ -1,0 +1,1 @@
+Esta es una prueba de escritura usando buffers de memoria de un nuevo archivo de texto para el Curso Aprendiendo Java desde Cero.
