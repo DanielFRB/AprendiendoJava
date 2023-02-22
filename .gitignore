@@ -79,3 +79,11 @@
 /PildorasInformaticas/JavaStreams/out/
 /PildorasInformaticas/JavaStreams/*.xml
 /PildorasInformaticas/JavaStreams/*.mf
+
+/PildorasInformaticas/ProgramGenerica/nbproject/
+/PildorasInformaticas/ProgramGenerica/build/
+/PildorasInformaticas/ProgramGenerica/dist/
+/PildorasInformaticas/ProgramGenerica/test/
+/PildorasInformaticas/ProgramGenerica/out/
+/PildorasInformaticas/ProgramGenerica/*.xml
+/PildorasInformaticas/ProgramGenerica/*.mf
