@@ -87,3 +87,11 @@
 /PildorasInformaticas/ProgramGenerica/out/
 /PildorasInformaticas/ProgramGenerica/*.xml
 /PildorasInformaticas/ProgramGenerica/*.mf
+
+/PildorasInformaticas/ProgramConcurrente/nbproject/
+/PildorasInformaticas/ProgramConcurrente/build/
+/PildorasInformaticas/ProgramConcurrente/dist/
+/PildorasInformaticas/ProgramConcurrente/test/
+/PildorasInformaticas/ProgramConcurrente/out/
+/PildorasInformaticas/ProgramConcurrente/*.xml
+/PildorasInformaticas/ProgramConcurrente/*.mf
