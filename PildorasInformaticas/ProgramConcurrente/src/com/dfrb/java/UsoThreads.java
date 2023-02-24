@@ -4,6 +4,7 @@ import java.awt.*;
 import java.awt.event.*;
 import java.awt.geom.*;
 import java.util.*;
+import java.util.concurrent.CopyOnWriteArrayList;
 import javax.swing.*;
 
 /**
@@ -77,7 +78,7 @@ class Pelota {
 class LaminaPelota extends JPanel {
 
     LaminaPelota() {
-        this.pelotas = new ArrayList<>();
+        this.pelotas = new CopyOnWriteArrayList<>();
     }
     public void add(Pelota p) {
         pelotas.add(p);
@@ -92,7 +93,7 @@ class LaminaPelota extends JPanel {
         }
     }
     
-    private final ArrayList<Pelota> pelotas;
+    private final CopyOnWriteArrayList<Pelota> pelotas;
 }
 
 class MarcoRebote extends JFrame {
