@@ -95,3 +95,11 @@
 /PildorasInformaticas/ProgramConcurrente/out/
 /PildorasInformaticas/ProgramConcurrente/*.xml
 /PildorasInformaticas/ProgramConcurrente/*.mf
+
+/PildorasInformaticas/Colecciones/nbproject/
+/PildorasInformaticas/Colecciones/build/
+/PildorasInformaticas/Colecciones/dist/
+/PildorasInformaticas/Colecciones/test/
+/PildorasInformaticas/Colecciones/out/
+/PildorasInformaticas/Colecciones/*.xml
+/PildorasInformaticas/Colecciones/*.mf
