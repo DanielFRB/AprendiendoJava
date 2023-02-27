@@ -7,7 +7,7 @@ package com.dfrb.java;
 public class Cliente {
     public Cliente(String n, String c, double s) {
         this.nombre = n;
-        this.numCuenta = c;
+        this.nunCuenta = c;
         this.saldo = s;
     }
 
@@ -20,11 +20,11 @@ public class Cliente {
     }
 
     public String getNumCuenta() {
-        return numCuenta;
+        return nunCuenta;
     }
 
-    public void setNumCuenta(String numCuenta) {
-        this.numCuenta = numCuenta;
+    public void setNumCuenta(String nunCuenta) {
+        this.nunCuenta = nunCuenta;
     }
 
     public double getSaldo() {
@@ -36,6 +36,6 @@ public class Cliente {
     }
 
     private String nombre;
-    private String numCuenta;
+    private String nunCuenta;
     private double saldo;
 }
