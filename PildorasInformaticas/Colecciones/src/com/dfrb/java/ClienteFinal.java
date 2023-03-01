@@ -1,13 +1,15 @@
 package com.dfrb.java;
 
+import java.util.*;
+
 /**
  * @author dfrb@ne
  */
 
-public class Cliente {
-    public Cliente(String n, String c, double s) {
+public class ClienteFinal {
+    public ClienteFinal(String n, String c, double s) {
         this.nombre = n;
-        this.nunCuenta = c;
+        this.numCuenta = c;
         this.saldo = s;
     }
 
@@ -20,11 +22,11 @@ public class Cliente {
     }
 
     public String getNumCuenta() {
-        return nunCuenta;
+        return numCuenta;
     }
 
-    public void setNumCuenta(String nunCuenta) {
-        this.nunCuenta = nunCuenta;
+    public void setNumCuenta(String numCuenta) {
+        this.numCuenta = numCuenta;
     }
 
     public double getSaldo() {
@@ -34,8 +36,31 @@ public class Cliente {
     public void setSaldo(double saldo) {
         this.saldo = saldo;
     }
+    
+    // Agregando metodos hashCode() e equals() para comprarar varios objetos de una misma clase
+    @Override
+    public int hashCode() {
+        int hash = 5;
+        hash = 37 * hash + Objects.hashCode(this.numCuenta);
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final ClienteFinal other = (ClienteFinal) obj;
+        return Objects.equals(this.numCuenta, other.numCuenta);
+    }
 
     private String nombre;
-    private String nunCuenta;
+    private String numCuenta;
     private double saldo;
 }
