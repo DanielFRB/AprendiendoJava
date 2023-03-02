@@ -16,6 +16,7 @@ public class ArticuloFinal implements Comparable<ArticuloFinal> {
         return descripcion;
     }
     
+    // Unicamente se sobreescribe el metodo compareTo()
     @Override
     public int compareTo(ArticuloFinal articulo) {
         return numeroArticulo - articulo.numeroArticulo;

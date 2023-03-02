@@ -40,7 +40,9 @@ public class PruebaTreeSetFinal {
         TreeSet<ArticuloFinal> listaArticulos2 = new TreeSet<>(new Comparator<ArticuloFinal>() {
             @Override
             public int compare(ArticuloFinal art1, ArticuloFinal art2) {
-                return art1.getDescripcion().compareTo(art2.getDescripcion());
+                String desc1 = art1.getDescripcion();
+                String desc2 = art2.getDescripcion();
+                return desc1.compareTo(desc2);
             }
         });
         listaArticulos2.add(primero);
