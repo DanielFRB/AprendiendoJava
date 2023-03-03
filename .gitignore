@@ -103,3 +103,11 @@
 /PildorasInformaticas/Colecciones/out/
 /PildorasInformaticas/Colecciones/*.xml
 /PildorasInformaticas/Colecciones/*.mf
+
+/PildorasInformaticas/JavaSockets/nbproject/
+/PildorasInformaticas/JavaSockets/build/
+/PildorasInformaticas/JavaSockets/dist/
+/PildorasInformaticas/JavaSockets/test/
+/PildorasInformaticas/JavaSockets/out/
+/PildorasInformaticas/JavaSockets/*.xml
+/PildorasInformaticas/JavaSockets/*.mf
