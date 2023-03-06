@@ -111,3 +111,12 @@
 /PildorasInformaticas/JavaSockets/out/
 /PildorasInformaticas/JavaSockets/*.xml
 /PildorasInformaticas/JavaSockets/*.mf
+
+/PildorasInformaticas/AccesoBBDD/nbproject/
+/PildorasInformaticas/AccesoBBDD/build/
+/PildorasInformaticas/AccesoBBDD/dist/
+/PildorasInformaticas/AccesoBBDD/test/
+/PildorasInformaticas/AccesoBBDD/out/
+/PildorasInformaticas/AccesoBBDD/*.xml
+/PildorasInformaticas/AccesoBBDD/*.mf
+
