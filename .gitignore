@@ -120,3 +120,8 @@
 /PildorasInformaticas/AccesoBBDD/*.xml
 /PildorasInformaticas/AccesoBBDD/*.mf
 
+/PildorasInformaticas/JavaServerPages/nbproject/
+/PildorasInformaticas/JavaServerPages/build/
+/PildorasInformaticas/JavaServerPages/test/
+/PildorasInformaticas/JavaServerPages/*.xml
+/PildorasInformaticas/JavaServerPages/*.mf
