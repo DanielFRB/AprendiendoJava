@@ -126,3 +126,10 @@
 /PildorasInformaticas/JavaServerPages/test/
 /PildorasInformaticas/JavaServerPages/*.xml
 /PildorasInformaticas/JavaServerPages/*.mf
+
+/PildorasInformaticas/JavaServlets/nbproject/
+/PildorasInformaticas/JavaServlets/src/conf/
+/PildorasInformaticas/JavaServlets/build/
+/PildorasInformaticas/JavaServlets/test/
+/PildorasInformaticas/JavaServlets/*.xml
+/PildorasInformaticas/JavaServlets/*.mf
