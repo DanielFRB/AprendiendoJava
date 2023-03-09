@@ -5,14 +5,14 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Registro de Clietes</title>
+        <title>Registro de Usuarios</title>
     </head>
     <body>
-        <h2>Clientes Registrados</h2>
+        <h2>Usuarios Registrados</h2>
         <br>
-        <jsp:include page="Saludo.jsp"></jsp:include>
+        <jsp:include page="Fecha.jsp"></jsp:include>
         <br>
-        <p>Cliente Registrado:</p>
+        <p>Usuario Registrado:</p>
         <br>
         <p>Nombre: <%= request.getParameter("nombre") %> </p>
         <br>
