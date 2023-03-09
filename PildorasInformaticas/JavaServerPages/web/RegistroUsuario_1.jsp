@@ -10,7 +10,7 @@
     <body>
         <h2>Clientes Registrados</h2>
         <br>
-        <jsp:include page="Fecha.jsp"></jsp:include>
+        <jsp:include page="Saludo.jsp"></jsp:include>
         <br>
         <p>Cliente Registrado:</p>
         <br>
