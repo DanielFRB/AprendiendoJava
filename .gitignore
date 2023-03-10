@@ -140,3 +140,11 @@
 /PildorasInformaticas/WebAppProductos/test/
 /PildorasInformaticas/WebAppProductos/*.xml
 /PildorasInformaticas/WebAppProductos/*.mf
+
+/PildorasInformaticas/AppsGraficasAvanzadas/nbproject/
+/PildorasInformaticas/AppsGraficasAvanzadas/build/
+/PildorasInformaticas/AppsGraficasAvanzadas/dist/
+/PildorasInformaticas/AppsGraficasAvanzadas/test/
+/PildorasInformaticas/AppsGraficasAvanzadas/out/
+/PildorasInformaticas/AppsGraficasAvanzadas/*.xml
+/PildorasInformaticas/AppsGraficasAvanzadas/*.mf
