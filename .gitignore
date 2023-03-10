@@ -133,3 +133,10 @@
 /PildorasInformaticas/JavaServlets/test/
 /PildorasInformaticas/JavaServlets/*.xml
 /PildorasInformaticas/JavaServlets/*.mf
+
+/PildorasInformaticas/WebAppProductos/nbproject/
+/PildorasInformaticas/WebAppProductos/src/conf/
+/PildorasInformaticas/WebAppProductos/build/
+/PildorasInformaticas/WebAppProductos/test/
+/PildorasInformaticas/WebAppProductos/*.xml
+/PildorasInformaticas/WebAppProductos/*.mf
