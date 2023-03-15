@@ -148,3 +148,11 @@
 /PildorasInformaticas/AppsGraficasAvanzadas/out/
 /PildorasInformaticas/AppsGraficasAvanzadas/*.xml
 /PildorasInformaticas/AppsGraficasAvanzadas/*.mf
+
+/EstructurasDeDatosEnJava/nbproject/
+/EstructurasDeDatosEnJava/build/
+/EstructurasDeDatosEnJava/dist/
+/EstructurasDeDatosEnJava/test/
+/EstructurasDeDatosEnJava/out/
+/EstructurasDeDatosEnJava/*.xml
+/EstructurasDeDatosEnJava/*.mf
