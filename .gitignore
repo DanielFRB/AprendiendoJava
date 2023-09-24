@@ -5,6 +5,9 @@
 /PildorasInformaticas/EstructurasPrincipales/dist/
 /PildorasInformaticas/EstructurasPrincipales/test/
 /PildorasInformaticas/EstructurasPrincipales/out/
+/PildorasInformaticas/EstructurasPrincipales/.settings/
+/PildorasInformaticas/EstructurasPrincipales/*.classpath
+/PildorasInformaticas/EstructurasPrincipales/*.project
 /PildorasInformaticas/EstructurasPrincipales/*.xml
 /PildorasInformaticas/EstructurasPrincipales/*.mf
 
@@ -13,6 +16,9 @@
 /PildorasInformaticas/ManipulacionCadenas/dist/
 /PildorasInformaticas/ManipulacionCadenas/test/
 /PildorasInformaticas/ManipulacionCadenas/out/
+/PildorasInformaticas/ManipulacionCadenas/.settings/
+/PildorasInformaticas/ManipulacionCadenas/*.classpath
+/PildorasInformaticas/ManipulacionCadenas/*.project
 /PildorasInformaticas/ManipulacionCadenas/*.xml
 /PildorasInformaticas/ManipulacionCadenas/*.mf
 
@@ -21,6 +27,9 @@
 /PildorasInformaticas/EntradaSalidaDeDatos/dist/
 /PildorasInformaticas/EntradaSalidaDeDatos/test/
 /PildorasInformaticas/EntradaSalidaDeDatos/out/
+/PildorasInformaticas/EntradaSalidaDeDatos/.settings/
+/PildorasInformaticas/EntradaSalidaDeDatos/*.classpath
+/PildorasInformaticas/EntradaSalidaDeDatos/*.project
 /PildorasInformaticas/EntradaSalidaDeDatos/*.xml
 /PildorasInformaticas/EntradaSalidaDeDatos/*.mf
 
@@ -29,6 +38,9 @@
 /PildorasInformaticas/CondicionalesYBucles/dist/
 /PildorasInformaticas/CondicionalesYBucles/test/
 /PildorasInformaticas/CondicionalesYBucles/out/
+/PildorasInformaticas/CondicionalesYBucles/.settings/
+/PildorasInformaticas/CondicionalesYBucles/*.classpath
+/PildorasInformaticas/CondicionalesYBucles/*.project
 /PildorasInformaticas/CondicionalesYBucles/*.xml
 /PildorasInformaticas/CondicionalesYBucles/*.mf
 
@@ -37,6 +49,9 @@
 /PildorasInformaticas/JavaArrays/dist/
 /PildorasInformaticas/JavaArrays/test/
 /PildorasInformaticas/JavaArrays/out/
+/PildorasInformaticas/JavaArrays/.settings/
+/PildorasInformaticas/JavaArrays/*.classpath
+/PildorasInformaticas/JavaArrays/*.project
 /PildorasInformaticas/JavaArrays/*.xml
 /PildorasInformaticas/JavaArrays/*.mf
 
@@ -45,6 +60,9 @@
 /PildorasInformaticas/POO/dist/
 /PildorasInformaticas/POO/test/
 /PildorasInformaticas/POO/out/
+/PildorasInformaticas/POO/.settings/
+/PildorasInformaticas/POO/*.classpath
+/PildorasInformaticas/POO/*.project
 /PildorasInformaticas/POO/*.xml
 /PildorasInformaticas/POO/*.mf
 
@@ -53,6 +71,9 @@
 /PildorasInformaticas/AppsGraficas/dist/
 /PildorasInformaticas/AppsGraficas/test/
 /PildorasInformaticas/AppsGraficas/out/
+/PildorasInformaticas/AppsGraficas/.settings/
+/PildorasInformaticas/AppsGraficas/*.classpath
+/PildorasInformaticas/AppsGraficas/*.project
 /PildorasInformaticas/AppsGraficas/*.xml
 /PildorasInformaticas/AppsGraficas/*.mf
 
@@ -61,6 +82,9 @@
 /PildorasInformaticas/EjemplosAdicionales/dist/
 /PildorasInformaticas/EjemplosAdicionales/test/
 /PildorasInformaticas/EjemplosAdicionales/out/
+/PildorasInformaticas/EjemplosAdicionales/.settings/
+/PildorasInformaticas/EjemplosAdicionales/*.classpath
+/PildorasInformaticas/EjemplosAdicionales/*.project
 /PildorasInformaticas/EjemplosAdicionales/*.xml
 /PildorasInformaticas/EjemplosAdicionales/*.mf
 
@@ -69,6 +93,9 @@
 /PildorasInformaticas/Excepciones/dist/
 /PildorasInformaticas/Excepciones/test/
 /PildorasInformaticas/Excepciones/out/
+/PildorasInformaticas/Excepciones/.settings/
+/PildorasInformaticas/Excepciones/*.classpath
+/PildorasInformaticas/Excepciones/*.project
 /PildorasInformaticas/Excepciones/*.xml
 /PildorasInformaticas/Excepciones/*.mf
 
@@ -77,6 +104,9 @@
 /PildorasInformaticas/JavaStreams/dist/
 /PildorasInformaticas/JavaStreams/test/
 /PildorasInformaticas/JavaStreams/out/
+/PildorasInformaticas/JavaStreams/.settings/
+/PildorasInformaticas/JavaStreams/*.classpath
+/PildorasInformaticas/JavaStreams/*.project
 /PildorasInformaticas/JavaStreams/*.xml
 /PildorasInformaticas/JavaStreams/*.mf
 
@@ -85,6 +115,9 @@
 /PildorasInformaticas/ProgramGenerica/dist/
 /PildorasInformaticas/ProgramGenerica/test/
 /PildorasInformaticas/ProgramGenerica/out/
+/PildorasInformaticas/ProgramGenerica/.settings/
+/PildorasInformaticas/ProgramGenerica/*.classpath
+/PildorasInformaticas/ProgramGenerica/*.project
 /PildorasInformaticas/ProgramGenerica/*.xml
 /PildorasInformaticas/ProgramGenerica/*.mf
 
@@ -93,6 +126,9 @@
 /PildorasInformaticas/ProgramConcurrente/dist/
 /PildorasInformaticas/ProgramConcurrente/test/
 /PildorasInformaticas/ProgramConcurrente/out/
+/PildorasInformaticas/ProgramConcurrente/.settings/
+/PildorasInformaticas/ProgramConcurrente/*.classpath
+/PildorasInformaticas/ProgramConcurrente/*.project
 /PildorasInformaticas/ProgramConcurrente/*.xml
 /PildorasInformaticas/ProgramConcurrente/*.mf
 
@@ -101,6 +137,9 @@
 /PildorasInformaticas/Colecciones/dist/
 /PildorasInformaticas/Colecciones/test/
 /PildorasInformaticas/Colecciones/out/
+/PildorasInformaticas/Colecciones/.settings/
+/PildorasInformaticas/Colecciones/*.classpath
+/PildorasInformaticas/Colecciones/*.project
 /PildorasInformaticas/Colecciones/*.xml
 /PildorasInformaticas/Colecciones/*.mf
 
@@ -109,6 +148,9 @@
 /PildorasInformaticas/JavaSockets/dist/
 /PildorasInformaticas/JavaSockets/test/
 /PildorasInformaticas/JavaSockets/out/
+/PildorasInformaticas/JavaSockets/.settings/
+/PildorasInformaticas/JavaSockets/*.classpath
+/PildorasInformaticas/JavaSockets/*.project
 /PildorasInformaticas/JavaSockets/*.xml
 /PildorasInformaticas/JavaSockets/*.mf
 
@@ -117,6 +159,9 @@
 /PildorasInformaticas/AccesoBBDD/dist/
 /PildorasInformaticas/AccesoBBDD/test/
 /PildorasInformaticas/AccesoBBDD/out/
+/PildorasInformaticas/AccesoBBDD/.settings/
+/PildorasInformaticas/AccesoBBDD/*.classpath
+/PildorasInformaticas/AccesoBBDD/*.project
 /PildorasInformaticas/AccesoBBDD/*.xml
 /PildorasInformaticas/AccesoBBDD/*.mf
 
@@ -124,6 +169,9 @@
 /PildorasInformaticas/JavaServerPages/src/conf/
 /PildorasInformaticas/JavaServerPages/build/
 /PildorasInformaticas/JavaServerPages/test/
+/PildorasInformaticas/JavaServerPages/.settings/
+/PildorasInformaticas/JavaServerPages/*.classpath
+/PildorasInformaticas/JavaServerPages/*.project
 /PildorasInformaticas/JavaServerPages/*.xml
 /PildorasInformaticas/JavaServerPages/*.mf
 
@@ -131,6 +179,9 @@
 /PildorasInformaticas/JavaServlets/src/conf/
 /PildorasInformaticas/JavaServlets/build/
 /PildorasInformaticas/JavaServlets/test/
+/PildorasInformaticas/JavaServlets/.settings/
+/PildorasInformaticas/JavaServlets/*.classpath
+/PildorasInformaticas/JavaServlets/*.project
 /PildorasInformaticas/JavaServlets/*.xml
 /PildorasInformaticas/JavaServlets/*.mf
 
@@ -138,6 +189,9 @@
 /PildorasInformaticas/WebAppProductos/src/conf/
 /PildorasInformaticas/WebAppProductos/build/
 /PildorasInformaticas/WebAppProductos/test/
+/PildorasInformaticas/WebAppProductos/.settings/
+/PildorasInformaticas/WebAppProductos/*.classpath
+/PildorasInformaticas/WebAppProductos/*.project
 /PildorasInformaticas/WebAppProductos/*.xml
 /PildorasInformaticas/WebAppProductos/*.mf
 
@@ -146,6 +200,9 @@
 /PildorasInformaticas/AppsGraficasAvanzadas/dist/
 /PildorasInformaticas/AppsGraficasAvanzadas/test/
 /PildorasInformaticas/AppsGraficasAvanzadas/out/
+/PildorasInformaticas/AppsGraficasAvanzadas/.settings/
+/PildorasInformaticas/AppsGraficasAvanzadas/*.classpath
+/PildorasInformaticas/AppsGraficasAvanzadas/*.project
 /PildorasInformaticas/AppsGraficasAvanzadas/*.xml
 /PildorasInformaticas/AppsGraficasAvanzadas/*.mf
 
@@ -154,5 +211,8 @@
 /EstructurasDatosEnJava/dist/
 /EstructurasDatosEnJava/test/
 /EstructurasDatosEnJava/out/
+/EstructurasDatosEnJava/.settings/
+/EstructurasDatosEnJava/*.classpath
+/EstructurasDatosEnJava/*.project
 /EstructurasDatosEnJava/*.xml
 /EstructurasDatosEnJava/*.mf
