@@ -8,8 +8,7 @@ import java.util.*;
 
 public class FrecuenciaPalabras {
     public static void main(String[] args) {
-        // Usamos la Clase Vector y establecemos una Capacidad Inicial
-        Vector listaPalabras = new Vector(10);
+        List<Asociacion> listaPalabras = new ArrayList<>();
         Scanner ent = new Scanner(System.in);
         int palabras = 10;
         int i;
@@ -19,7 +18,7 @@ public class FrecuenciaPalabras {
             String palabraEnLista;
             String palabra = ent.nextLine();
             for (i = 0; i < listaPalabras.size(); i++) {
-                informacionPalabra = (Asociacion) listaPalabras.get(i);
+                informacionPalabra = listaPalabras.get(i);
                 palabraEnLista = (String) informacionPalabra.getKey();
                 if (palabraEnLista.equals(palabra)) {
                     Integer frecuencia = (Integer) informacionPalabra.getValue();
@@ -28,16 +27,15 @@ public class FrecuenciaPalabras {
                 }
             }
             if (i == listaPalabras.size()) {
-                // Aunque el valor inicial de la variable Vector esta establecida a 10 elementos, bien podemos seguir agregando elementos
-                // sin tener que modificar el tamaño inicial del Vector.
                 listaPalabras.add(new Asociacion(palabra, 1));
             }
             palabras--;
         }
         for (i = 0; i < listaPalabras.size(); i++) {
-            Asociacion informacionPalabra = (Asociacion) listaPalabras.get(i);
+            Asociacion informacionPalabra = listaPalabras.get(i);
             System.out.println(informacionPalabra.getKey() +" aparece "+ informacionPalabra.getValue() +" veces");
         }
+        ent.close();
     }
 }
 
