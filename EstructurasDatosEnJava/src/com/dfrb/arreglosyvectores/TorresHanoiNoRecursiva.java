@@ -97,17 +97,11 @@ public class TorresHanoiNoRecursiva {
         }
         for(i = 1; i <= numeroTotalMovimientos; i++) {
             switch (i % 3) {
-                case 1:
-                    mueveDiscosEntreDosTorres(tOrigen, tDestino, to, td);
-                    break;
-                case 2:
-                    mueveDiscosEntreDosTorres(tOrigen, tAuxiliar, to, ta);
-                    break;
-                case 0:
-                    mueveDiscosEntreDosTorres(tAuxiliar, tDestino, ta, td);
-                    break;
-                default:
-                    break;
+                case 1 -> mueveDiscosEntreDosTorres(tOrigen, tDestino, to, td);
+                case 2 -> mueveDiscosEntreDosTorres(tOrigen, tAuxiliar, to, ta);
+                case 0 -> mueveDiscosEntreDosTorres(tAuxiliar, tDestino, ta, td);
+                default -> {
+                }
             }
         }
     }
