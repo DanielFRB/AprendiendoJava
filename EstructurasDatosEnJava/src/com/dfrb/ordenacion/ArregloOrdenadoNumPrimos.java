@@ -15,7 +15,7 @@ public class ArregloOrdenadoNumPrimos {
         for (int i = 0; i < numeros.length; i++) {
             System.out.print(" " + numeros[i]);
         }
-        numeros = OrdenaPrimosFirst(ordenAscendente(numeros));
+        numeros = ordenaPrimosFirst(ordenAscendente(numeros));
         System.out.print("\nArreglo de Numeros Ordenados Validando Numeros Primos Ordenados:\n");
         for (int i = 0; i < numeros.length; i++) {
             System.out.print(" " + numeros[i]);
@@ -39,7 +39,7 @@ public class ArregloOrdenadoNumPrimos {
         return a;
     }
     
-    private static int[] OrdenaPrimosFirst(int[] a) {
+    private static int[] ordenaPrimosFirst(int[] a) {
         List<Integer> lista = new ArrayList<>();
         for (int i = 0; i < a.length; i++) {
             if (esPrimo(a[i])) {
