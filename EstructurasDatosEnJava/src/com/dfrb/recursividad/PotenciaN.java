@@ -16,6 +16,7 @@ public class PotenciaN {
         System.out.println("Ingrese un numero exponente 'n': ");
         n = entrada.nextInt();
         System.out.println("La "+ n +" potencia del numero "+ x +" es: "+ potencia(x,n));
+        entrada.close();
     }
     
     private static int potencia (int x, int n) {
