@@ -17,13 +17,14 @@ public class ProductoElemArreglo {
         v = new double[n];
         leerArreglo(v);
         System.out.println("El producto de los "+ n +" elementos del arreglo es: "+ productoArreglo(v));
+        entrada.close();
     }
     
     private static void leerArreglo(double[] a) throws Exception {
         int n = 0;
         System.out.println("Introduzca "+ a.length +" numeros.");
         for (; n < a.length; n++) {
-            a[n] = Double.valueOf(entrada.readLine()).doubleValue();
+            a[n] = Double.parseDouble(entrada.readLine());
         }
     }
     
