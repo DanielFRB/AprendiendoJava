@@ -1,6 +1,7 @@
 package com.dfrb.recursividad;
 
 import java.io.*;
+import java.util.Scanner;
 
 /**
  * @author dfrb@ne
@@ -8,10 +9,11 @@ import java.io.*;
 
 public class TorresHanoi {
     public static void main(String[] args) throws IOException {
-        BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
+        Scanner entrada = new Scanner(System.in);
         System.out.println("Numero de discos: ");
-        int n = Integer.parseInt(entrada.readLine());
-        Hanoi('O', 'A', 'D', n);  //1:origen  2:auxiliar 3:destino                                                         
+        int n = entrada.nextInt();
+        Hanoi('O', 'A', 'D', n);  //1:origen  2:auxiliar 3:destino
+        entrada.close();
     }
 
     public static void Hanoi(char origen,  char auxiliar, char destino, int n){
