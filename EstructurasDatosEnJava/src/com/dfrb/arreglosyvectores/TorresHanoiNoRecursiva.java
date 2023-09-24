@@ -7,7 +7,7 @@ import java.io.*;
  */
 
 public class TorresHanoiNoRecursiva {
-    public static void main(String args[]) throws IOException{
+    public static void main(String[] args) throws IOException{
         BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Numero de discos: ");
         int numeroDeDiscos = Integer.parseInt(entrada.readLine());
@@ -18,6 +18,7 @@ public class TorresHanoiNoRecursiva {
         tDestino = toh.crearTorre(numeroDeDiscos);
         tAuxiliar = toh.crearTorre(numeroDeDiscos);
         toh.torresIterativas(numeroDeDiscos, tOrigen, tAuxiliar, tDestino);
+        entrada.close();
     }
     
     class Torre {
@@ -95,12 +96,18 @@ public class TorresHanoiNoRecursiva {
             push(tOrigen, i);
         }
         for(i = 1; i <= numeroTotalMovimientos; i++) {
-            if (i % 3 == 1) {
-                mueveDiscosEntreDosTorres(tOrigen, tDestino, to, td);
-            } else if (i % 3 == 2) {
-                mueveDiscosEntreDosTorres(tOrigen, tAuxiliar, to, ta);
-            } else if (i % 3 == 0) {
-                mueveDiscosEntreDosTorres(tAuxiliar, tDestino, ta, td);
+            switch (i % 3) {
+                case 1:
+                    mueveDiscosEntreDosTorres(tOrigen, tDestino, to, td);
+                    break;
+                case 2:
+                    mueveDiscosEntreDosTorres(tOrigen, tAuxiliar, to, ta);
+                    break;
+                case 0:
+                    mueveDiscosEntreDosTorres(tAuxiliar, tDestino, ta, td);
+                    break;
+                default:
+                    break;
             }
         }
     }
