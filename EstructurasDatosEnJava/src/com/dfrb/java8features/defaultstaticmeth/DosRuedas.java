@@ -1,4 +1,4 @@
-package com.dfrb.java8features.defstatmet;
+package com.dfrb.java8features.defaultstaticmeth;
 
 /**
  * @author dfrb@ne
