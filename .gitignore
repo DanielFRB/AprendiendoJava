@@ -1,4 +1,6 @@
 /JSTL-1.2/
+/Servers/
+/.metadata/
 
 /PildorasInformaticas/EstructurasPrincipales/nbproject/
 /PildorasInformaticas/EstructurasPrincipales/build/
@@ -216,3 +218,4 @@
 /EstructurasDatosEnJava/*.project
 /EstructurasDatosEnJava/*.xml
 /EstructurasDatosEnJava/*.mf
+
