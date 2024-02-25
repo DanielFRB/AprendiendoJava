@@ -23,6 +23,7 @@ public class FrecuenciaPalabras {
                 if (palabraEnLista.equals(palabra)) {
                     Integer frecuencia = (Integer) informacionPalabra.getValue();
                     informacionPalabra.setValue(frecuencia + 1);
+                    ent.close();
                     break;
                 }
             }

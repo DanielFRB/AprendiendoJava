@@ -19,6 +19,7 @@ public class DemoLecturaStrings {
             System.out.println("Ingrese el String No "+ (i+1));
             data[i] = s.nextLine();
         }
+        s.close();
         System.out.println("Los Strings introducidos son: ");
         for (int j = 0; j < n; j++) {
             System.out.println(data[j]);

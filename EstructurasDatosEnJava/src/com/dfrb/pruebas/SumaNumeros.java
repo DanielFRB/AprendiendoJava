@@ -19,6 +19,7 @@ public class SumaNumeros {
         } else {
             System.out.println("La Suma de los digitos del mumero "+ n +" es: "+ suma);
         }
+        numero.close();
     }
     
     public static int sumaDeDigitos(int n) {

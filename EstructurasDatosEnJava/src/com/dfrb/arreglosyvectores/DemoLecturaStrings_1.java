@@ -12,7 +12,7 @@ public class DemoLecturaStrings_1 {
         // Se Usa la clase Vector y se inicializa para recibir los valores, cabe destacar que a diferecia del arreglo 
         // un Vector es un tipo de arreglo cuyo tamaño se puede cambiar fácilmente, mientras que en el arreglo,
         // una vez inicializado el tamaño del mismo no se podra cambiar nunca.
-        Vector data = new Vector();
+        Vector<String> data = new Vector<String>();
         System.out.println("Ingresa el numero de Strings a escribir: ");
         int n = s.nextInt();
         int i = 0;
@@ -23,6 +23,7 @@ public class DemoLecturaStrings_1 {
             data.add(str);
             n--;
         }
+        s.close();
         System.out.println("Los Strings introducidos son: ");
         System.out.println(data);
     }

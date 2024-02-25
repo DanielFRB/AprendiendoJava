@@ -23,6 +23,7 @@ public class LetrasColumnasExcel {
         } else {
             System.out.println("Usted ha introducido el numero cero. Adios...");
         }
+        ent.close();
     }
     
     private static String devuelveLetra(int numero) {

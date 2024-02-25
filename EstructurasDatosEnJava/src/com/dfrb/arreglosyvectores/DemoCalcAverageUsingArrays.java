@@ -33,6 +33,7 @@ public class DemoCalcAverageUsingArrays {
         for (int i = 0; i < lengthArrayInt2; i++) {
             sumArrayInt2 += arrayInt2[i];
         }
+        s.close();
         double promArrayInt2 = sumArrayInt2 / lengthArrayInt2;
         System.out.println("El Promedio del Array es: "+ promArrayInt2);
     }

@@ -35,6 +35,7 @@ public class TrianguloPascal {
             a = x;
             System.out.println();
         }
+        input.close();
         mostrar(nfilas);
     }
     

@@ -11,7 +11,7 @@ public class FlowControlChallenge {
         
         int result = 0;
         
-        if (amIFat = true || (isDinnerPrank = true)) {
+        if (amIFat = true) {
             result++;
             amIFat = false;
         }
