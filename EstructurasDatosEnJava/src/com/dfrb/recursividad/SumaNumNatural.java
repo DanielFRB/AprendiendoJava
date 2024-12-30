@@ -13,6 +13,7 @@ public class SumaNumNatural {
         int n = Integer.parseInt(entrada.readLine());
         System.out.println("Suma Recursiva es igual a: "+ sumaRecursiva(n));
         System.out.println("Suma Iterativa es igual a: "+ sumaIterativa(n));
+        entrada.close();
     }
     
     private static int sumaRecursiva(int n) {

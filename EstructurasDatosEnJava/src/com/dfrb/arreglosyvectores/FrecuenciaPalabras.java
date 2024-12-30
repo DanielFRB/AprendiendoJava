@@ -41,6 +41,7 @@ public class FrecuenciaPalabras {
 }
 
 // Creamos una Clase que implemente la Interface Map.Entry
+@SuppressWarnings("rawtypes")
 class Asociacion implements Map.Entry {
     public Asociacion(Object clave, Object valor) {
         this.clave = clave;
