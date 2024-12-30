@@ -1,4 +1,8 @@
 /JSTL-1.2/
+/mylinkedmodapp/
+/mymodapp/
+/mymodapp/.vscode/
+/mymodapp/modules/
 
 /PildorasInformaticas/EstructurasPrincipales/nbproject/
 /PildorasInformaticas/EstructurasPrincipales/build/
@@ -217,3 +221,7 @@
 /EstructurasDatosEnJava/*.xml
 /EstructurasDatosEnJava/*.mf
 
+/mymoduleapp/nbproject/private/
+/mymoduleapp/build/
+/MyModularApp/nbproject/private/
+/MyModularApp/build/
